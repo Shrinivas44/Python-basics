@@ -40,16 +40,33 @@ if "Mango" in fruit:
 else:
   print("Mango not found")
 
+# Example 8: Insert an Element
+fruit = ["Apple","Orange","Grapes","Mango"]
+fruit.insert(1,"Banana")
+print(fruit)
 
+# Example 9: Remove the Last Element
+number = [10,20,30,40,50]
+number.pop()
+print(number)
 
+# Example 10: Sort a List
+num = [2,4,3,7,1]
+num.sort()
+print(num)
 
+# Example 11: Reverse a List
+num = [1,2,3,4,5]
+num.reverse()
+print(num)
 
+# Example 12: Count an Element
+num = [10, 20, 10, 30, 10, 40]
+print(num.count(10))
 
-
-
-
-
-
+# Example 13: Find Index of an Element
+fruit = ["Apple", "Banana", "Orange", "Mango"]
+print(fruit.index("Orange"))
 
 
 

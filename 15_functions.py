@@ -71,12 +71,12 @@ get_even_numbers([1,2,3,4,5,6])
 
 # Example 10: Count Greater Numbers
 def count_greater(number,target):
-  a = []
-  for i in number:
-    if number[i] >= target:
-      a.append(number[i]
-  count(a)
-count_greater([12,13,14,15,16],15)
+  count = 0
+  for i in range(len(number)):
+    if number[i] > target:
+      count += 1
+  return count
+print(count_greater([12,13,14,15,16],15))
 
 
 

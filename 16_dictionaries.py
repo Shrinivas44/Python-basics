@@ -113,15 +113,21 @@ print(find_top_student())
 def find_top_student():
   students = {"Rahul": 85,"Priya": 92,"Shrinivas": 78,"Arun": 88}
   count = 0
+  lowest_mark = list(students.values())[0]
   result = "hii"
   for name, mark in students.items():
-    if mark <= count
-      count = mark
-    else:
-      count = mark
+    if lowest_mark >= mark:
       result = name
-  return result
+      lowest_mark = mark
+  return result   
 print(find_top_student())
+
+# Dictionary + Nested Data
+student = {"name": "Shrinivas","skills": ["Python", "SQL", "Machine Learning"]}
+print(student["name"])
+print(student["skills"])
+print(student["skills"][0])
+
 
 
 

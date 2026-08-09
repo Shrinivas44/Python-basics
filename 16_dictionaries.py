@@ -65,6 +65,115 @@ for subject,mark in marks.items():
     count += 1
 print(count)
 
+#Dictionary + User Input
+marks = {"Math": 80,"Python": 90,"AI": 85,"DBMS": 75,"Java": 60}
+subject = input("Enter a Subject : ")
+print(marks[subject])
+
+#Search Student Information
+students = {"Rahul": 85,"Priya": 92,"Shrinivas": 78,"Arun": 88}
+name = input("Enter a Name : ")
+if name in students:
+  print(students[name])
+else:
+  print("student not found")
+
+#Dictionary + Function
+def get_marks(student, name):
+  if name in student:
+    return student[name]
+  else:
+    return "student not found"
+students = {"Rahul": 85,"Priya": 92,"Shrinivas": 78,"Arun": 88}
+print(get_marks(students, "Priya"))
+
+#Dictionary + Function + Loop
+def find_top_students():
+  result = []
+  students = {"Rahul": 85,"Priya": 92,"Shrinivas": 78,"Arun": 88}
+  for keys, values in students.items():
+    if values >= 85:
+      result.append(keys)
+  return result
+print(find_top_students())
+
+# Find the Top Student
+def find_top_student():
+  students = {"Rahul": 85,"Priya": 92,"Shrinivas": 78,"Arun": 88}
+  count = 0
+  result = "hii"
+  for name, mark in students.items():
+    if mark >= count:
+      count = mark
+      result = name
+  return result
+print(find_top_student())
+
+# Find the Lowest Student
+def find_top_student():
+  students = {"Rahul": 85,"Priya": 92,"Shrinivas": 78,"Arun": 88}
+  count = 0
+  result = "hii"
+  for name, mark in students.items():
+    if mark <= count
+      count = mark
+    else:
+      count = mark
+      result = name
+  return result
+print(find_top_student())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -16,7 +16,7 @@ print(colors[4])
 
 #Example 3: Modify a List Element
 fruit = ["Apple","Banana","Orange","Grapes","Mango"]
-fruit[1] == fruit[4]
+fruit[1] = fruit[4]
 print(fruit)
 
 # Example 4: Add an Element to a List
